@@ -26,7 +26,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install djangorestframework
 	pip install djangorestframework-api-key
-	pip3 install django-cors-headers
+	pip install django-cors-headers
     - name: Run Tests
       run: |
         python manage.py test
